@@ -1,0 +1,44 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- New SaudaraVoucher fintech-style logo -->
+  <!-- This logo uses simple shapes and gradients so it loads fast and looks sharp on web -->
+  <defs>
+    <linearGradient id="vrGradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="vrTextGradient" x1="45" y1="10" x2="170" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#4B5563"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: stylized V + R combined inside a rounded card -->
+  <rect x="1" y="2" width="36" height="36" rx="11" fill="url(#vrGradient)"/>
+  <path
+    d="M10 14L15.5 27C16.1 28.4 17.9 28.4 18.5 27L22 19.2L25.5 27C26.1 28.4 27.9 28.4 28.5 27L34 14"
+    stroke="white"
+    stroke-width="2.1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Small cut on the corner to hint at voucher/card shape -->
+  <path
+    d="M31 2H37C38.1 2 39 2.9 39 4V10"
+    stroke="white"
+    stroke-width="1.4"
+    stroke-linecap="round"
+  />
+
+  <!-- Brand text -->
+  <text x="48" y="17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif"
+        font-size="14" font-weight="700" letter-spacing="0.04em" fill="url(#vrTextGradient)">
+    Voucher
+  </text>
+  <text x="48" y="31" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif"
+        font-size="13" font-weight="500" letter-spacing="0.16em" fill="#4F46E5">
+    RAKYAT
+  </text>
+</svg>
+
+
