@@ -6,8 +6,8 @@ const transporter = nodemailer.createTransport({
     port: 465, // Using Mailtrap's alternative port
     secure: true, // Set to false for port 2525
     auth: {
-      user: 'admin@SaudaraVoucher.com',
-      pass: 'SaudaraVoucher123!',
+      user: 'admin@saudaravoucher.com',
+      pass: 'Saudaravoucher123!',
     },
 });
 
